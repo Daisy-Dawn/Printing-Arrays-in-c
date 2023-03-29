@@ -20,12 +20,12 @@ int a[5], i;
     scanf("%d", &b[i]);
   system("clear");
 
-  for (i = 0; i < 5; i++)
+  for (i = 4; i >= 0; i--)
     printf("\nArray of first elements at index %d is: %d\n", i, a[i]);
 
   printf("\n");
 
-  for (i = 0; i < 5; i++)
+  for (i = 4; i >= 0; i--)
     printf("\nArray of second elements at index %d is: %d\n", i, b[i]);
 
   printf("\n\nEnd of Program\n\n");
